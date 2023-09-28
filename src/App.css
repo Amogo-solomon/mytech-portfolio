@@ -176,8 +176,7 @@ section {
 @media screen and (max-width: 768px) {
   .hero h1 {
     font-weight: 600;
-    font-size: 40px;
-    
+    font-size: 30px;
   }
 }
 /*-------------------hero---------------*/
@@ -189,27 +188,94 @@ section {
   margin-bottom: 30px;
   height: auto;
 }
+@media screen and (max-width: 472px) {
+   .hero h1{
+    font-weight: 600;
+    font-size:20px ;
+    margin-top: 10px;
+  }
+  .hero p{
+    font-size: 12px;
+  }
+}
 /*-------------------about---------------*/
+.about {
+  height: auto;
+  margin-bottom: 40px;
+
+}
 .about .primaryBtn {
   margin-left: 20px;
 }
 .about .heading {
   text-align: left;
-  margin: 0;
+  margin-top: 20px;
 }
 .left {
   width: 35%;
 }
 .right {
   width: 65%;
+  height: auto;
 }
+.left {
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .left img {
+    height: 30%;
+    width: 30%;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 472px) {
+   button {
+    align-items: left;
+    font-size: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .about .container {
+    margin-top: 2px;
+    height: auto;
+  }
+  .about .left {
+    margin-top: 1px;
+  }
+  .about p{
+    font-size: 12px;
+  }
+  .container .heading {
+    font-size: 20px;
+  }
+  
+}
+
+
 /*-------------------services---------------*/
 .grid3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
+@media screen and (max-width: 472px) {
+  .services .grid3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+  }
+  .services p {
+    font-size: 12px;
+  }
+  .services .box {
+    height: 37vh;
+  }
+ 
+}
 /*-------------------services---------------*/
+.services {
+  height: auto;
+}
 .services .box {
   background-color: var(--primaryBackground);
   padding: 35px;
@@ -227,6 +293,7 @@ section {
   place-items: center;
   text-align: center;
 }
+
 /*-------------------counter---------------*/
 .counter {
   margin-top: 160px;
@@ -238,9 +305,30 @@ section {
 }
 .counter h1 {
   margin: 0;
- 
 }
 /*---------counter-------------*/
+@media screen and (max-width: 768px) {
+   .counter .heading {
+    font-size: 30px;
+  }
+  .counter h3{
+    font-size: 10px;
+  }
+  .counter {
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .counter .box {
+   margin-top: 20px;
+   margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+ 
+}
+/*---------------counter-------*/
 /*---------portfolio-------------*/
 .box {
   position: relative;
@@ -252,6 +340,9 @@ article {
   margin-top: 50px;
   margin-bottom: 80px;
   background-color: var(--secondaryBackground);
+}
+article .container {
+  margin-top: 30px;
 }
 article img {
   width: 100%;
@@ -313,6 +404,36 @@ article .box:hover .overlay::after {
   text-transform: capitalize;
   margin-right: 20px;
 }
+@media screen and (max-width: 768px) {
+  .catButton {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .catButton button {
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .catButton {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .catButton button {
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 2px;
+  }
+@media screen and (max-width:472px) {
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+  }
+}
+}
+
 /*-------------------portfolio------------*/
 /*----------------- testimonials----------*/
 .testimonials {
@@ -360,11 +481,18 @@ label {
   display: inline-block;
 }
 
+@media screen and (max-width: 472px) {
+  .box p{
+    font-size: 12px;
+  }
+}
 
 /*-------------testimonials------------*/
 /*-------------blog--------------*/
 
-
+.blog {
+  height: auto;
+}
 .blog img {
   width: 100%;
 }
@@ -378,6 +506,19 @@ label {
 .read-toggle {
   cursor: pointer;
   color:var(--primaryColor); 
+}
+@media screen and (max-width: 998px) {
+  .blog .content {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 998px) {
+  .blog .content {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }
 /*----------blog-------------*/
 /*------------contact-----------*/
@@ -465,3 +606,29 @@ footer i {
   }
 }
 
+/*---------------css effect scroll -----------*/
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.element{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width:772px) {
+  .scroll-to-top {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+}

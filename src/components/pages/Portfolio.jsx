@@ -14,10 +14,8 @@ export const Portfolio = () => {
         setLists(newItems)
         if (category === "all") {
             setLists(portfolio);
-
         }
     }
-
   return (
   <>
   <article>
@@ -52,3 +50,5 @@ export const Portfolio = () => {
   </>
   )
 }
+
+

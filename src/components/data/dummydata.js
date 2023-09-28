@@ -1,6 +1,6 @@
 import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, 
   CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined,
-   PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube  } from "@mui/icons-material"
+   PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube, LinkedIn, GitHub } from "@mui/icons-material"
 
    export const navlink = [
       {
@@ -45,7 +45,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
       {
           desc: "Hello, I am Amogo Solomon, a passionate front-end developer dedicated to crafting remarkable digital experiences. With a keen eye for design and a love for coding, I am on a mission to make the web more beautiful and user-friendly. My journey into the world of web development began when I took a challenge to finish a course in front end development. Since then, I've continually honed my skills and knowledge to keep pace with the dynamic world of front-end technologies.",
           desc1: "I specialize in creating visually stunning and highly functional websites. Here are some of the tools and technologies I excel in: HMTL/CSS, Javascript, React.js, Responsive Design, Performance Optimization",
-          cover: "./images/man1.png",
+          cover: "./images/man4.png",
       },
    ]
    export const services = [
@@ -96,13 +96,13 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
       {
           id: 2,
           icon: <FavoriteBorder />,
-          num: "3",
+          num: "4",
           title: "PROJECTS COMPLETED",
         },
         {
           id: 3,
           icon: <Public />,
-          num: "",
+          num: "53",
           title: "FILES DOWNLOADED",
         },
         {
@@ -234,7 +234,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
   export const contact = [
       {
           icon: <AddLocationAltOutlined />,
-          text1: "Adjacent Gold Aplle Plaza, Gidan Daya",
+          text1: "Adjacent Golden Apple Plaza, Gidan Daya",
           text2: "Abuja, Nigeria",
         },
         {
@@ -249,16 +249,16 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
         },
   ]
   export const social = [
-      {
-          icon: <Facebook />,
-        },
-        {
-          icon: <Twitter />,
-        },
-        {
-          icon: <Instagram />,
-        },
+      
         {
           icon: <YouTube />,
+        },
+        {
+          icon: <LinkedIn />,
+          url: "https://www.linkedin.com/in/amogosolomon/",
+        },
+        {
+          icon: <GitHub />,
+          url: "https://github.com/Amogo-solomon",
         },
   ]
