@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# mytech-portfolio
+Welcome to my portfolio website, where innovation and creativity converge to bring you a glimpse of my journey in the world of web development and technology. Explore a collection of my projects, including a dynamic Todo List app that helps you stay organized and efficient. Dive into the realm of DeFi (Decentralized Finance) with my cryptocurrency
+>>>>>>> 953d560d57a0e2c5a7e718a31b6c4ad8273d8be8
