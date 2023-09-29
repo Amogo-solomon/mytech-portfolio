@@ -22,8 +22,8 @@ export const Contact = () => {
                     </form>
                 </div>
                 <div className='left'>
-                    {contact.map((item) => (
-                        <div className='box' data-aos='zoom-in-down'>
+                    {contact.map((item, index) => ( //Adding index as a uniqu key
+                        <div className='box' data-aos='zoom-in-down' key={index}>
                             <i>{item.icon}</i>
                              <p>{item.text1}</p>
                             <p>{item.text2}</p>

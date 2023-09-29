@@ -9,8 +9,8 @@ export const Services = () => {
             <div className="container">
                 <Heading title="Services" />
                 <div className="content grid3">
-                {services.map((item, i) => (
-                    <div className="box" data-aos='flip-left'>
+                {services.map((item, desc) => ( /* using desc as unique ID */
+                    <div className="box" data-aos='flip-left' key={desc}> {/*addign a unique key*/}
                         <i>{item.icon}</i>
                         <h3>{item.title}</h3>
                         <p>{item.desc}</p>

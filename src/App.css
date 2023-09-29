@@ -555,7 +555,12 @@ label {
   margin: 10px 0;
   border-radius: 5px;
 }
-
+@media screen and (max-width: 770px) {
+  .left .box {
+    margin-bottom: 2px;
+    font-size: 10px;
+  }
+}
 /*--------------contact-----------------*/
 /*---------------footer----------------*/
 footer {
@@ -568,6 +573,11 @@ footer {
 footer i {
   margin: 5px;
   color: var(--primaryColor);
+}
+@media screen and (max-width: 770px) {
+  footer p{
+    font-size: 12px;
+  }
 }
 /*-----------------footer-----------------*/
 @media screen and (max-width: 768px) {

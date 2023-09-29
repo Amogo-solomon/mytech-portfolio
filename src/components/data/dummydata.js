@@ -252,6 +252,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
       
         {
           icon: <YouTube />,
+          url: "",
         },
         {
           icon: <LinkedIn />,

@@ -8,8 +8,8 @@ export const About = () => {
     <>
      <section className="about">
         <div className="container flex">
-          {about.map((val, i) =>(
-            <>
+          {about.map((val, k) =>(
+            <div key={k}> {/* Add a unique key here */}
                 <div className="left" data-aos='fade-down-right'>
                     <img src={val.cover} alt='' height='90%' width='75%' />
                 </div>
@@ -20,7 +20,7 @@ export const About = () => {
                     <button onClick={handleDownloadResume }>Download Resume</button>
                     <button className="primaryBtn" onClick={handleDownloadResume }>Download Resume</button>
                 </div>
-            </>
+            </div>
           ))}
         </div>
       </section>

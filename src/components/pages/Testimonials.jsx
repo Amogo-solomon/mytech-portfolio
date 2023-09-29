@@ -19,8 +19,8 @@ export const Testimonials = () => {
     <section className="testimonials hero">
         <div className="container">
         <Slider {...settings}>
-            {testimonials.map((val) => (
-                <div className="box">
+            {testimonials.map((val, index) => (
+                <div className="box" key={index}> {/* Adding a uniqu key using index */}
                     <i>
                         <FormatQuoteIcon />
                     </i>

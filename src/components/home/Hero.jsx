@@ -9,8 +9,8 @@ export const Hero = () => {
   return (
     <>
       <section className="hero">
-        {home.map((val,i) =>(
-            <div className="heroContainer">
+        {home.map((val,l) =>(
+            <div className="heroContainer" key={l}>
                 <h3 data-aos='fade-right'>{val.text}</h3>
                 <h1>
                     <Typewriter 
