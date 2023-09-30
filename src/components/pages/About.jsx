@@ -7,9 +7,9 @@ export const About = () => {
   return (
     <>
      <section className="about">
-        <div className="container flex">
+        <div className="container">
           {about.map((val, k) =>(
-            <div key={k}> {/* Add a unique key here */}
+            <div className="flex"  key={k} > {/* Add a unique key here */}
                 <div className="left" data-aos='fade-down-right'>
                     <img src={val.cover} alt='' height='90%' width='75%' />
                 </div>
