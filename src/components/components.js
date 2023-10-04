@@ -8,3 +8,4 @@ import { Blog } from "./pages/Blog";
 import { Contact } from "./pages/Contact";
 
 export { Home, About, Services, Portfolio, Testimonials, Blog, Contact };
+
