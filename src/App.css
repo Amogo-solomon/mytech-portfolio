@@ -258,7 +258,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
-@media screen and (max-width: 472px) {
+@media screen and (max-width: 500px) {
   .services .grid3 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -268,7 +268,7 @@ section {
     font-size: 12px;
   }
   .services .box {
-    height: 37vh;
+    height: 40vh;
   }
  
 }
