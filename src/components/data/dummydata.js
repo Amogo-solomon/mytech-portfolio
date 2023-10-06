@@ -141,10 +141,18 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
           id: 4,
           cover: "../images/port/port4.png",
           name: "Click to lunch",
-          category: "Defi Crypto",
+          category: "fintech",
           title: "Defi Crypto Platform",
           url: "https://fintech-defi.vercel.app/",
         },
+        {
+          id: 5,
+          cover: "../images/port/port5.png",
+          name: "click to lunch",
+          category: "fintech",
+          title: "Fintek crypto",
+          url: "",
+        }
   ]
   export const testimonials = [
       {

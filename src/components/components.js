@@ -9,3 +9,4 @@ import { Contact } from "./pages/Contact";
 
 export { Home, About, Services, Portfolio, Testimonials, Blog, Contact };
 
+/* N/B:  the platform worked without this page */

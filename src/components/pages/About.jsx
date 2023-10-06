@@ -17,7 +17,7 @@ export const About = () => {
                     <Heading title='About Me' />
                     <p>{val.desc}</p>
                     <p>{val.desc1}</p>
-                    <button onClick={handleDownloadResume }>Download Resume</button>
+                    {/* <button className="primaryBtn2" onClick={handleDownloadResume }>Download Resume</button> */}
                     <button className="primaryBtn" onClick={handleDownloadResume }>Download Resume</button>
                 </div>
             </div>
