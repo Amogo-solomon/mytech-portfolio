@@ -6,7 +6,7 @@ export const handleDownloadResume = () => {
     
    {/* create  a link element */}
   const link = document.createElement("a");
-  link.href = "/resume.pdf"; {/* Replace with the actual path to ou PDF file */}
+  link.href = "/resume_Amogo_Solomon.pdf"; {/* Replace with the actual path to ou PDF file */}
   link.target = "_blank";
   link.download = "resume_Amogo_Solomon.pdf"; {/* set the default download filename */}
   
