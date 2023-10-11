@@ -249,7 +249,7 @@ section {
     height: auto;
   }
   .about {
-    background-color: var(--secondaryBackground);
+    background-color: var(--headingColor);
     margin-top: 50px;
     margin-bottom: 10px;
   }
@@ -296,6 +296,7 @@ section {
 /*-------------------services---------------*/
 .services {
   height: auto;
+  background-color: var(--secondaryBackground);
 }
 .services .box {
   background-color: var(--primaryBackground);
