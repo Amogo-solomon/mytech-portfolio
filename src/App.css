@@ -231,7 +231,10 @@ section {
     height: 30%;
     width: 30%;
   }
- 
+  .about .primaryBtn {
+    margin-left: 39px;
+    margin-right: 30px;
+  }
 }
 @media screen and (max-width: 472px) {
    button {
@@ -263,9 +266,8 @@ section {
     font-size: 20px;
   }
   
-  .about .primaryBtn {
-    margin-left: 39px;
-    margin-right: 30px;
+  .right .primaryBtn {
+   margin-right: 0px;
   }
   .right .heading {
     margin-bottom: 0px;
