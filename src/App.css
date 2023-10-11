@@ -265,7 +265,7 @@ section {
   
   .about .primaryBtn {
     margin-left: 50px;
-    margin-right: 40px;
+    margin-right: 50px;
   }
   .right .heading {
     margin-bottom: 0px;
@@ -296,7 +296,6 @@ section {
 /*-------------------services---------------*/
 .services {
   height: auto;
-  background-color: var(--secondaryBackground);
 }
 .services .box {
   background-color: var(--primaryBackground);
