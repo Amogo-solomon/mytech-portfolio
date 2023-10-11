@@ -215,23 +215,21 @@ section {
 }
 .about .heading {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .left {
   width: 35%;
+  margin-top: 20px;
 }
 .right {
   width: 65%;
   height: auto;
 }
-.left {
-  margin-top: 20px;
-}
+
 @media screen and (max-width: 768px) {
   .left img {
     height: 30%;
     width: 30%;
-    margin-top: 30px;
   }
  
 }
@@ -250,6 +248,11 @@ section {
     margin-top: 2px;
     height: auto;
   }
+  .about {
+    background-color: var(--secondaryBackground);
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
   .about .left {
     margin-top: 1px;
   }
@@ -261,10 +264,11 @@ section {
   }
   
   .about .primaryBtn {
-    margin-left: 40px;
+    margin-left: 50px;
     margin-right: 40px;
-    
-   
+  }
+  .right .heading {
+    margin-bottom: 0px;
   }
 }
 
