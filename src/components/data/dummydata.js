@@ -119,7 +119,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
           name: "Click to lunch",
           category: "Portfolio Web",
           title: "Portfolio Website",
-          url: "https://mytech-portfolio.vercel.app/",
+          url: "https://amogosolomon-porfolio.vercel.app/",
         },
         {
           id: 2,
@@ -159,7 +159,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
           name: "click to lunch",
           category: "Law Firm",
           title: "Law Firm",
-          url: "umumechambers.vercel.app",
+          url: "https://umumechambers.vercel.app/",
         }
   ]
   export const testimonials = [
