@@ -152,6 +152,14 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
           category: "fintech",
           title: "Fintek crypto",
           url: "",
+        },
+        {
+          id: 6,
+          cover: "../images/port/port6.png",
+          name: "click to lunch",
+          category: "Law Firm",
+          title: "Law Firm",
+          url: "umumechambers.vercel.app",
         }
   ]
   export const testimonials = [
