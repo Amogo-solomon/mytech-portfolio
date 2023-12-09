@@ -511,6 +511,7 @@ label {
   .box p{
     font-size: 12px;
   }
+ 
 }
 
 /*-------------testimonials------------*/
@@ -668,4 +669,13 @@ footer i {
     font-size: 10px;
     padding: 5px 10px;
   }
+}
+
+/* join class */
+@media screen and (max-width: 472px) {
+  .flyer .boxflyer{
+   height: 300px;
+   width: 300px;
+  }
+ 
 }

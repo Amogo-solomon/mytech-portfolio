@@ -9,6 +9,7 @@ import { Portfolio } from "./Portfolio"; // Import the specific component
 import { Testimonials } from "./Testimonials"; // Import the specific component
 import { Blog } from "./Blog"; // Import the specific component
 import { Contact } from "./Contact"; // Import the specific component
+import { Joinclass } from "./Joinclass"
 import { Link, Element } from "react-scroll"; // Import Link and Element from react-scroll
 
 export const Pages = () => {
@@ -25,6 +26,7 @@ export const Pages = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Footer" element={<Footer />} />
+          <Route path="/joinclass" element={<Joinclass />} />
         </Routes>
         <Footer />
       </Router>

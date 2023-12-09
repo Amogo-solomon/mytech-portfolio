@@ -31,6 +31,10 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
           url: "/contact",
           text: "Contact",
       },
+      {
+        url: "/joinclass",
+        text: "Join Class",
+    },
    ]
    export const home = [
       {
@@ -278,4 +282,9 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
           icon: <GitHub />,
           url: "https://github.com/Amogo-solomon",
         },
+  ]
+  export const joinclass = [
+    {
+      flyer: "./images/flyer.jpg",
+    }
   ]
