@@ -11,7 +11,7 @@ export const Joinclass = () => {
             <Heading title='Kids And Teens Virtual  Holiday Coding TechCamp' />
             <div className='content flexsb'>
                 <div className='right'>
-                    <form action="https://getform.io/f/3b694de0-e037-494d-92f6-76955e61502b" method="POST">
+                    <form action="https://getform.io/f/bdf08e2d-8041-4014-84bb-290c6e2c8f9d" method="POST">
                         <div className='flex'>
                             <input type="name" name='name' placeholder='Name' data-aos="zoom-in-down" />
                             <input type='email' name='email' placeholder='Email' data-aos='zoom-in-up' />
