@@ -20,8 +20,8 @@ export const Joinclass = () => {
                             <input type='phonenumber' name='phonenumber' placeholder='Phonenumber' data-aos='zoom-in-up' />
                             <input type='age' name='age' placeholder='Your Age' data-aos='zoom-in-up' />
                         </div>
-                            <input type="name" name='name' placeholder='Country of Residance' data-aos="zoom-in-down" />
-                            <input type='email' name='email' placeholder='State of Resisdence' data-aos='zoom-in-up' />
+                            <input type="country" name='country' placeholder='Country of Residance' data-aos="zoom-in-down" />
+                            <input type='state' name='state' placeholder='State of Resisdence' data-aos='zoom-in-up' />
                         <button type='submit' data-aos=''>Register</button>
                     </form>
                 </div>
