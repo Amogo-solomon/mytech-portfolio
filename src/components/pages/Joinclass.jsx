@@ -13,11 +13,11 @@ export const Joinclass = () => {
                 <div className='right'>
                     <form action="https://getform.io/f/bdf08e2d-8041-4014-84bb-290c6e2c8f9d" method="POST">
                         <div className='flex'>
-                            <input type="name" name='name' placeholder='Name' data-aos="zoom-in-down" />
+                            <input type="name" name='name' placeholder='Name' data-aos="zoom-in-down" required/>
                             <input type='email' name='email' placeholder='Email' data-aos='zoom-in-up' />
                         </div>
                         <div className='flex'>
-                            <input type='phonenumber' name='phonenumber' placeholder='Phonenumber' data-aos='zoom-in-up' />
+                            <input type='phonenumber' name='phonenumber' placeholder='Phonenumber' data-aos='zoom-in-up' required />
                             <input type='age' name='age' placeholder='Your Age' data-aos='zoom-in-up' />
                         </div>
                             <input type="country" name='country' placeholder='Country of Residance' data-aos="zoom-in-down" />
