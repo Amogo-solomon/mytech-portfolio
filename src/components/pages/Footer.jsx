@@ -4,7 +4,7 @@ import { WhatsApp } from '@mui/icons-material';
 
 export const Footer = () => {
 
-  const whatsappNumber = '+2347084857763'; // WhatsApp number
+  const whatsappNumber = '+2348166617463'; // WhatsApp number
 
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${whatsappNumber}`, '_blank');
