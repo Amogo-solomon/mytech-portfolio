@@ -13,6 +13,8 @@ import { Joinclass } from "./Joinclass"
 import { Link, Element } from "react-scroll"; // Import Link and Element from react-scroll
 
 export const Pages = () => {
+  
+
   return (
     <>
       <Router>

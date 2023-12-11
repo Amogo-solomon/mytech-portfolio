@@ -285,6 +285,6 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
   ]
   export const joinclass = [
     {
-      flyer: "./images/flyer.jpg",
+      flyer: "./images/flyer.jpeg",
     }
   ]
