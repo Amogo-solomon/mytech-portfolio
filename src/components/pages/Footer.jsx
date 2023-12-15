@@ -55,7 +55,13 @@ export const Footer = () => {
                 <i data-aos='zoom-in-left'>{item.icon}</i>
            </a>
         ))}
-        <p data-aos='zoom-in-right'>All Right Reserves 2023</p>
+        <p className="mt-4 text-center text-sm" data-aos="">
+          &copy; {new Date().getFullYear()} All Rights Reserved
+        </p>
+
+        <p className="mt-4 text-center text-sm text-primaryColor" data-aos="">
+           Powered By amogosolomon.tech
+        </p>
       </footer>
     </>
   )
