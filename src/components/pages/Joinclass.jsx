@@ -11,7 +11,7 @@ export const Joinclass = () => {
   };
 
   const handleReset = () => {
-    setSubmitted(false); // Reset the submitted state to false
+    setSubmitted(false); // Reset the submitted state to false 
   };
 
   const registrationSuccessfulStyle = {
