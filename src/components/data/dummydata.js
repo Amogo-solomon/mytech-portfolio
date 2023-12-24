@@ -47,8 +47,8 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
    ]
    export const about = [
       {
-          desc: "Hello, I am Amogo Solomon, a passionate front-end developer dedicated to crafting remarkable digital experiences. With a keen eye for design and a love for coding, I am on a mission to make the web more beautiful and user-friendly. My journey into the world of web development began when I took a challenge to finish a course in front end development. Since then, I've continually honed my skills and knowledge to keep pace with the dynamic world of front-end technologies.",
-          desc1: "I specialize in creating visually stunning and highly functional websites. Here are some of the tools and technologies I excel in: HMTL/CSS, Javascript, React.js, Responsive Design, Performance Optimization",
+          desc: "Hello, I am Amogo Solomon, a passionate front-end developer dedicated to crafting remarkable digital experiences. With a keen eye for design and a love for coding, I am on a mission to make the web more beautiful and user-friendly. My journey into the world of web development began when I took a challenge to finish a course in front end development and completed several projects. Since then, I've continually honed my skills and knowledge to keep pace with the dynamic world of front-end technologies.",
+          desc1: "I specialize in creating visually stunning and highly functional websites. Here are some of the tools and technologies I excel in: React.js, Next.Js, Javascript, TypeScript TailwindCSS, Responsive Web Design, Performance Optimization",
           cover: "./images/man4.png",
       },
    ]
