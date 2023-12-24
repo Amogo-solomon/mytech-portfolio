@@ -17,7 +17,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
       },
       {
           url: "/portfolio",
-          text: "Portfolio",
+          text: "Projects",
       },
       {
           url: "/testimonials",
