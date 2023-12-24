@@ -42,7 +42,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
           name: "AMOGO SOLOMOM",
           post: "A FRONTEND DEVELOPER",
           design: "",
-          desc: "I create scalable and effective software applications on the frontend and offer captivating, pixel-perfect user experiences. I am an adaptable Professional who has demonstrated leadership, problem-solving, and workflow-prioritizing skills",
+          desc: "I create scalable and effective web based applications on the frontend and offer captivating, pixel-perfect user experiences. I am an adaptable Professional who has demonstrated leadership, problem-solving, and workflow-prioritizing skills",
       },
    ]
    export const about = [
