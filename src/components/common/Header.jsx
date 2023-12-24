@@ -24,7 +24,7 @@ export const Header = () => {
           <div className={responsive ? "nav" : "nav showMenu"}>
             {navlink.map((links, i) => (
               <Link to={links.url}
-               key={i} data-aos='zoom-in-left'
+               key={i} data-aos=''
                 onClick={handleMenuItemClick} // Call the function on click
             >
                 {links.text}
